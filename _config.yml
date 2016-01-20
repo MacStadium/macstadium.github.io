@@ -1,0 +1,7 @@
+# Site settings
+title:        MacStadium.github.io
+description:  "MacStadium Open Source"
+baseurl:      ""
+url:          https://macstadium.github.io
+date_format:  "%A, %B %-d, %Y"
+timezone:     America/New_York
