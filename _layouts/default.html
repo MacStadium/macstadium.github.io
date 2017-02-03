@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
 {% include head.html %}
-<body>
+<body class="w-100">
+  {% if page.header == true %}
   {% include header.html %}
+  {% endif %}
   {{ content }}
+  {% if page.footer == true %}
   {% include footer.html %}
+  {% endif %}
 </body>
 </html>

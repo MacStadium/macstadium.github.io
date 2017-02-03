@@ -1,0 +1,11 @@
+<nav>
+  <ul class="tc">
+    {% assign nav_links = site.data.nav %}
+    {% for link in nav_links %}
+    <li class="dib">
+      <a href="{{link.url}}" title="{{link.title}}" class="white no-underline dim">{{link.title}}</a>
+      {% unless forloop.last %} | {% endunless %}
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

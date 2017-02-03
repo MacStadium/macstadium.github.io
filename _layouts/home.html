@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<main class="w-50 center">
+  {% for entry in site.data.projects %}
+  {% assign project = entry[1] %}
+  <article class="mw5 mw6-ns center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+    <div class="tc">
+      <img src="{{ "img/m-logo.svg" | relative_url }}" class="br-100 h3 w3 dib" title="MacStadium M logo">
+        <h1 class="f4 f3-ns">
+          <a href="{{project.repo}}" title="{{project.name}}" class="black link no-underline underline-hover">
+          {{project.name}}
+          </a>
+        </h1>
+      <hr class="mw3 bb bw1 b--black-10">
+    </div>
+    <p class="lh-copy measure center f6 f5-ns black-70">
+      {{project.description}}
+    </p>
+    <p class="lh-copy measure center tc f6 f5-ns black-70">
+      {{project.license}} License &middot; {{project.lang | capitalize}}<br>
+      <span class="db pt2"><time datetime="{{project.released | date_to_xmlschema }}">{{project.released | date_to_string }}</time></span>
+    </p>
+  </article>
+  {% endfor %}
+</main>

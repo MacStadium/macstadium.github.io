@@ -1,10 +1,14 @@
 # Site settings
-title:        MacStadium.github.io
-description:  "MacStadium Open Source"
+title:        macstadium.github.io
+description:  "Open Source contributions by MacStadium at GitHub."
 baseurl:      ""
 url:          https://macstadium.github.io
 date_format:  "%A, %B %-d, %Y"
 timezone:     America/New_York
 
+org: macstadium
+repo: https://www.github.com/macstadium/macstadium.github.io
+
 # Build settings
 highlighter:  pygments
+google-site-verification:
