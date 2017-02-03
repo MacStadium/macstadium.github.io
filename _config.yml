@@ -9,6 +9,4 @@ timezone:     America/New_York
 org: macstadium
 repo: https://www.github.com/macstadium/macstadium.github.io
 
-# Build settings
-highlighter:  pygments
 google-site-verification:
