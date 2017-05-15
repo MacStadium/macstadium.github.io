@@ -7,6 +7,6 @@ date_format:  "%A, %B %-d, %Y"
 timezone:     America/New_York
 
 org: macstadium
-repo: https://www.github.com/macstadium/macstadium.github.io
+repository: macstadium/macstadium.github.io
 
 google-site-verification:
