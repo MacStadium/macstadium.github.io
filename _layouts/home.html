@@ -4,7 +4,7 @@ layout: default
 
 <main class="w-100 w-50-ns center">
   {% for entry in site.data.projects %}
-  {% assign project = entry[1] %}
+  {% assign project = entry[1] | reversed %}
   {% unless project.published == false %}
   <article class="mw5 mw6-ns center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
     <div class="tc">
