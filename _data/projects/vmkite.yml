@@ -1,0 +1,12 @@
+name: "vmkite"
+description: |
+  Provides a daemon that listens for builds on Buildkite and spawns ephemeral virtual machines running Buildkite Agent on a VMWare vSphere cluster. After the build has finished the instance is destroyed. This allows for a repeatable environment for testing.
+  <br>
+  Requires a vSphere Datastore with the base virtual machine image in a .vmx format. Currently MacStadium provides these for you as part of your private cluster, contact us for the location to use.
+repo: 'https://github.com/macstadium/vmkite'
+lang: go
+date: '2017-04-15'
+license:
+related:
+  - vmkite-images
+published: true

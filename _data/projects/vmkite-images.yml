@@ -1,0 +1,12 @@
+name: "VMKite Images"
+description: |
+  A set of packer templates and scripts for building base images for use with <a href="https://github.com/macstadium/vmkite" title="vmkite">vmkite</a>.
+  <br>
+  These base images will boot a buildkite-agent process on boot with specific metadata that matches a job spawned by <a href="https://github.com/macstadium/vmkite" title="vmkite">vmkite</a>.
+repo: 'https://github.com/macstadium/vmkite-images'
+lang: shell
+date: '2017-05-15'
+license: MIT
+related:
+  - vmkite
+published: true
